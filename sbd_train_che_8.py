@@ -36,7 +36,7 @@ def parse_args():
     parser.add_argument('--num-workers', '-j', dest='num_workers', type=int,
                         default=11, help='Number of data workers, you can use larger '
                         'number to accelerate data loading, if you CPU and GPUs are powerful.')
-    parser.add_argument('--gpus', type=str, default='1',
+    parser.add_argument('--gpus', type=str, default='0',   #with cpu
                         help='Training with GPUs, you can specify 1,3 for example.')
     parser.add_argument('--epochs', type=int, default=800,
                         help='Training epochs.')

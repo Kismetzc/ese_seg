@@ -46,7 +46,7 @@ class VOCDetection(VisionDataset):
                'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike',
                'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor')
 
-    def __init__(self, root='/home/whymit/ESE-SEG/data',
+    def __init__(self, root='/home/alex/Desktop/ese_seg/data',
                  # splits=((2007, 'trainval'), (2012, 'trainval')),
                  splits=((2012, 'train')),
                  transform=None, index_map=None, preload_label=True):
@@ -195,7 +195,7 @@ class coco_pretrain_Detection(VisionDataset):
                'cat', 'chair', 'cow', 'dining table', 'dog', 'horse', 'motorcycle',
                'person', 'potted plant', 'sheep', 'couch', 'train', 'tv')
 
-    def __init__(self, root='/home/whymit/ESE-SEG/data',
+    def __init__(self, root='/home/alex/Desktop/ese_seg/data',
                  # splits=((2007, 'trainval'), (2012, 'trainval')),
                  splits=((2012, 'train')),
                  transform=None, index_map=None, preload_label=True):
@@ -346,7 +346,7 @@ class VOC_Val_Detection(VisionDataset):
                'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike',
                'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor')
 
-    def __init__(self, root='/home/whymit/ESE-SEG/data',
+    def __init__(self, root='/home/alex/Desktop/ese_seg/data',   
                  # ori    splits=((2007, 'trainval'), (2012, 'trainval')),
                  splits=((2012, 'train')),
                  transform=None, index_map=None, preload_label=True):
